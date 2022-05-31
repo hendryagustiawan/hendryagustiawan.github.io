@@ -1,0 +1,19 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-image: url(https://static.vecteezy.com/system/resources/previews/002/290/836/non_2x/illustration-of-beautiful-summer-fields-landscape-green-hills-bright-color-blue-sky-country-background-in-flat-cartoon-style-banner-vector.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+        
+        button {
+            border: 2px solid #F24C4C;
+            background-color: #F24C4C;
+            color: white;
+            padding: 10px 20px;
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
