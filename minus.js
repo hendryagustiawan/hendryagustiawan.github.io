@@ -22,7 +22,10 @@ function equation() {
         // console.log(allAnswer);
 
     for (let i = allAnswer.length; i > 0; i--) {
-        switchAnswer.push(allAnswer.splice(Math.floor(Math.random() * i), 1)[0])
+        let arr = allAnswer.splice(Math.floor(Math.random() * i), 1)[0]
+            // console.log(arr);
+        switchAnswer.push(arr)
+            // console.log(switchAnswer)
     }
     // console.log(switchAnswer);
 
