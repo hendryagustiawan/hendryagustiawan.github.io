@@ -19,7 +19,7 @@ body {
 .container h1 {
     float: left;
     margin-left: 5%;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .container ul {
@@ -57,12 +57,11 @@ body {
 }
 
 .wrapper h1 {
-    color: #F24C4C;
+    color: #5FD068;
 }
 
 .equation {
     font-size: 60px;
-    background-color: white;
     text-align: center;
     margin-top: 5%;
     margin-left: 20%;
@@ -75,22 +74,24 @@ body {
 
 .answer-options {
     font-size: 60px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     text-align: center;
     margin-top: 5%;
+    padding-right: 10%;
 }
 
 .answer-options h1 {
     cursor: pointer;
     display: inline;
-    padding: 50px;
+    padding: 20px;
     color: white;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 #option1 {
     background-color: #F66B0E;
     transition: 1s;
+    border-radius: 50%;
 }
 
 #option1:hover {
@@ -101,6 +102,9 @@ body {
 #option2 {
     background-color: #37E2D5;
     transition: 1s;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #option2:hover {
@@ -111,6 +115,7 @@ body {
 #option3 {
     background-color: #F8CB2E;
     transition: 1s;
+    border-radius: 50%;
 }
 
 #option3:hover {
